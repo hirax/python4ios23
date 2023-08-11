@@ -1,4 +1,4 @@
-from objc_util import ObjCClass, NSBundle
+from objc_util.objc_util import ObjCClass, NSBundle
 
 #__all__ = ['battery','backlight_level','set_backlight_level']
 UIDevice = ObjCClass('UIDevice')

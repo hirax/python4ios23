@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
  
 setup(
     # package name
-    name='python4ios23',
+    name='python4ios',
     version="0.0.1",
     description="Python for iOS",
     long_description="Python module for iOS and iPadOS",
@@ -13,5 +13,5 @@ setup(
     ],
     # subfolder
     # objc_tools: https://github.com/scj643/objc_tools
-    packages=['arkit','audiotoolbox','avaudio','avfaudio','avfoundation','classes','corebluetooth','coreimage','corelocation','coreml','coremotion','objc_tools','speech','uikit']
+    packages=['arkit','audiotoolbox','avfaudio','avfoundation','classes','corebluetooth','coreimage','corelocation','coreml','coremotion','defines','objc_util','speech','uikit']
 )

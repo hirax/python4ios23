@@ -1,4 +1,4 @@
-from objc_util import ObjCClass, nsurl, ObjCInstance, uiimage_to_png, UIImage
+from objc_util.objc_util import ObjCClass, nsurl, ObjCInstance, uiimage_to_png, UIImage
 from datetime import datetime
 from io import BytesIO
 from PIL import Image

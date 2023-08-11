@@ -1,4 +1,4 @@
-from objc_util import ObjCClass, load_framework, nsurl, ObjCInstance, CGRect, CGPoint, CGSize
+from objc_util.objc_util import ObjCClass, load_framework, nsurl, ObjCInstance, CGRect, CGPoint, CGSize
 from objc_tools.objchandler import urlHandle
 from objc_tools.core.media import CMTime, CMTimeMakeWithSeconds
 import ui

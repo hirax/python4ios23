@@ -1,4 +1,4 @@
-from objc_util import ObjCClass
+from objc_util.objc_util import ObjCClass
 UIDevice = ObjCClass('UIDevice')
 NSProcessInfo = ObjCClass('NSProcessInfo')
 device = UIDevice.currentDevice()

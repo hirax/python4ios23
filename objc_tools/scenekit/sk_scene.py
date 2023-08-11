@@ -1,4 +1,4 @@
-from objc_util import ObjCClass, load_framework, nsurl, ObjCInstance, on_main_thread, ns, create_objc_class, UIApplication, UIColor, CGSize
+from objc_util.objc_util import ObjCClass, load_framework, nsurl, ObjCInstance, on_main_thread, ns, create_objc_class, UIApplication, UIColor, CGSize
 from objc_tools.scenekit.util import SUPPORTED_FORMATS, LightType, ShadowMode, DebugOptions, RenderingAPI, LightingModel
 from objc_tools.scenekit.structures import Vector3, Vector4, Matrix4
 from objc_tools.ui.editorview import TabView, tabVC

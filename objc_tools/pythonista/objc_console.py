@@ -1,5 +1,5 @@
 __doc__ = '''A lib for working with the objc functions of the console view'''
-from objc_util import ObjCClass, UIApplication, ns
+from objc_util.objc_util import ObjCClass, UIApplication, ns
 from objc_tools.objc_json import objc_to_py
 
 console = UIApplication.sharedApplication().\

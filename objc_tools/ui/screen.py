@@ -1,5 +1,5 @@
 from objc_tools.ui.displays import getScreens
-from objc_util import ObjCInstance, ObjCClass
+from objc_util.objc_util import ObjCInstance, ObjCClass
 import ui
 
 UIWindow = ObjCClass("UIWindow")

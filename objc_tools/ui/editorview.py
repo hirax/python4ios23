@@ -1,4 +1,4 @@
-from objc_util import ObjCInstance, ObjCInstanceMethod, create_objc_class, nsurl, on_main_thread, sel, UIApplication, ObjCClass
+from objc_util.objc_util import ObjCInstance, ObjCInstanceMethod, create_objc_class, nsurl, on_main_thread, sel, UIApplication, ObjCClass
 
 # mostly from https://github.com/controversial/Pythonista-Tweaks/blob/master/pythonista/editor.py
 UIViewController = ObjCClass('UIViewController')

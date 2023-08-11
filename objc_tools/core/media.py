@@ -1,5 +1,5 @@
 from ctypes import Structure, c_int32, c_int64, c_uint32, c_double
-from objc_util import c, type_encodings
+from objc_util.objc_util import c, type_encodings
 from objc_tools.backports.enum_backport import Flag
 from objc_tools.structs import Encodings
 

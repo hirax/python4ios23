@@ -1,4 +1,4 @@
-from objc_util import c_void_p, ObjCInstance
+from objc_util.objc_util import c_void_p, ObjCInstance
 from objc_tools.objc_json import objc_to_py
 
 

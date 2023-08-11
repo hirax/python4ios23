@@ -1,4 +1,4 @@
-from objc_util import ObjCClass, NSBundle, uiimage_to_png, nsurl, ObjCInstance, ns
+from objc_util.objc_util import ObjCClass, NSBundle, uiimage_to_png, nsurl, ObjCInstance, ns
 from io import BytesIO
 from PIL import Image
 from urllib.parse import urlparse

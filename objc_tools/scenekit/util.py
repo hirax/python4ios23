@@ -1,6 +1,6 @@
 import re
 from objc_tools.backports.enum_backport import Flag, IntEnum
-from objc_util import Structure, c_float
+from objc_util.objc_util import Structure, c_float
 from pprint import pformat
 
 SUPPORTED_FORMATS = re.compile('dae|scn', re.I)

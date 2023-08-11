@@ -1,4 +1,4 @@
-from objc_util import c_void_p, c_char_p, c_int, c_int32, c, c_long, c_ulong
+from objc_util.objc_util import c_void_p, c_char_p, c_int, c_int32, c, c_long, c_ulong
 from objc_tools.c.objc_handler import chandle
 
 dispatch_queue_create = c.dispatch_queue_create

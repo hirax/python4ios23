@@ -1,4 +1,4 @@
-from objc_util import c_void_p, c_int, c, c_bool, NSString, ObjCBlock, c_char_p, ObjCClass, c_long, c_ulong, nsdata_to_bytes, ns
+from objc_util.objc_util import c_void_p, c_int, c, c_bool, NSString, ObjCBlock, c_char_p, ObjCClass, c_long, c_ulong, nsdata_to_bytes, ns
 from objc_tools.c.objc_handler import chandle
 from objc_tools.backports.enum_backport import IntEnum
 from objc_tools.c import dispatch

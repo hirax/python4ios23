@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: python4ios
+Version: 0.0.1
+Summary: Python for iOS
+Author: Jun Hirabayashi
+License: MIT
+Classifier: Development Status :: 1 - Planning
+
+Python module for iOS and iPadOS

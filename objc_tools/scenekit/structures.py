@@ -1,6 +1,6 @@
-from objc_util import Structure, c_float, c, c_bool
+from objc_util.objc_util import Structure, c_float, c, c_bool
 from pprint import pformat
-from objc_util import type_encodings
+from objc_util.objc_util import type_encodings
 from objc_tools.structs import Encodings
 
 

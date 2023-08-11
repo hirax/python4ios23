@@ -1,4 +1,4 @@
-from objc_util import ObjCClass, nsdata_to_bytes
+from objc_util.objc_util import ObjCClass, nsdata_to_bytes
 import json
 
 NSJSONSerialization = ObjCClass('NSJSONSerialization')

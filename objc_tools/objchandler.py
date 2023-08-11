@@ -1,4 +1,4 @@
-from objc_util import ObjCInstance, nsurl, NSURL, NSString
+from objc_util.objc_util import ObjCInstance, nsurl, NSURL, NSString
 
 def objcDict(objcd):
     returns = []

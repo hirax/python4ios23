@@ -1,6 +1,6 @@
 __doc__ = '''This lib is for making ObjCBlocks useful.
              DO NOT USE from objc_tools.blocks import * This module relys on it's name'''
-from objc_util import ObjCBlock, c_void_p
+from objc_util.objc_util import ObjCBlock, c_void_p
 from uuid import uuid4
 from sys import modules
 #global _objects

@@ -1,4 +1,4 @@
-from objc_util import ObjCClass
+from objc_util.objc_util import ObjCClass
 reachablity = ObjCClass('IMNetworkReachability')
 manager = ObjCClass('IMDesktopNetworkManager')
 monitor = ObjCClass('IMConnectionMonitor')

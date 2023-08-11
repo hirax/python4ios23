@@ -1,4 +1,4 @@
-from objc_util import *
+from objc_util.objc_util import *
 from objc_tools.backports.enum_backport import IntEnum
 from objc_tools import blocks
 load_framework('UserNotifications')

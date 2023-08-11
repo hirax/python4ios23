@@ -1,4 +1,4 @@
-from objc_util import NSBundle, ObjCInstance, ObjCClass, c_void_p
+from objc_util.objc_util import NSBundle, ObjCInstance, ObjCClass, c_void_p
 from objc_tools.foundation.error import ObjcErrorHandler
 from os import listdir
 from glob import glob

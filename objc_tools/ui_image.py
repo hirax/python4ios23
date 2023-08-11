@@ -1,4 +1,4 @@
-from objc_util import ObjCInstance, c, c_void_p
+from objc_util.objc_util import ObjCInstance, c, c_void_p
 from ctypes import c_double
 from io import BytesIO
 from base64 import decodestring

@@ -1,4 +1,4 @@
-from objc_util import ObjCInstance, c_void_p
+from objc_util.objc_util import ObjCInstance, c_void_p
 
 def chandle(result, func, args):
     '''chandle

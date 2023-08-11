@@ -1,4 +1,4 @@
-from objc_util import (ObjCClass, ObjCInstance, UIColor, byref, c_uint,
+from objc_util.objc_util import (ObjCClass, ObjCInstance, UIColor, byref, c_uint,
                        class_copyMethodList, free, method_getName, sel_getName)
 from objc_tools import bundles
 import re
