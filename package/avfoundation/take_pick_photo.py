@@ -66,6 +66,9 @@ def pick_photolibrary_and_save(file_path):
         infos = ObjCInstance(info)  # Get UIImage
         #img = infos['UIImagePickerControllerEditedImage']
         img = infos['UIImagePickerControllerOriginalImage']
+        # ここの処理を変える 
+        url = infos['UIImagePickerControllerImageURL']
+        print(url)
         if '.jpg' == os.path.splitext(file_path)[1].lower():
             #img.jpegData()
             # UIImageJPEGRepresentationの引数・返値型を指定する

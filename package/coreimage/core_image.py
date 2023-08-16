@@ -36,3 +36,10 @@ def apply_filter2np(np_image, filter_name, dict):
     ci_img = apply_filter2ci(ci_img, filter_name, dict)
     ui_img = ci2ui(ci_img)
     return ui2np(ui_img)
+
+def ciimage_from_url(file_path):
+    from os.path import abspath
+    url = NSURL.fileURLWithPath(abspath(file_path))
+    ciimage = CIImage.imageWithContentsOfURL_(url)
+    return ciimage
+

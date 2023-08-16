@@ -13,5 +13,5 @@ setup(
     ],
     # subfolder
     # objc_tools: https://github.com/scj643/objc_tools
-    packages=['arkit','audiotoolbox','avfaudio','avfoundation','classes','corebluetooth','coreimage','corelocation','coreml','coremotion','defines','objc_util','speech','uikit']
+    packages=['arkit','audiotoolbox','avfaudio','avfoundation','classes','corebluetooth','coreimage','corelocation','coreml','coremotion','defines','imageio','objc_util','speech','uikit']
 )
