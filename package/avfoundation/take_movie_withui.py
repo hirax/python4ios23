@@ -21,7 +21,7 @@ def take_movie_and_save(file_path):
         ObjCInstance(self).release()
         pick.dismissViewControllerAnimated_completion_(True, None) # Dismiss the sheet:
         infos = ObjCInstance(info)  # Get UIImage
-        url = infos['UIImagePickerControllerMediaURL']
+        #url = infos['UIImagePickerControllerMediaURL']
         shutil.copy("{}".format(url.path()), file_path)
     # UIImagePickerControllerDelegateクラスを登録する
     MyPickerDelegate = create_objc_class(
@@ -94,7 +94,7 @@ def take_photo_and_save(file_path):
 # フォトライブラリーから静止画を取得する場合
 @on_main_thread
 def pick_photolibrary_and_save(file_path):
-    # 撮影後に呼ばれるdelegateを定義
+    # 画像選択後に呼ばれるdelegateを定義
     def imagePickerController_didFinishPickingMediaWithInfo_(self, cmd, picker, info):
         pick = ObjCInstance(picker)
         pick.setDelegate_(None)  # Set delegate to nil, and release its memory:
@@ -146,7 +146,7 @@ def pick_photolibrary_and_save(file_path):
 # フォトアルバムから静止画を取得する場合
 @on_main_thread
 def pick_photoalbum_and_save(file_path):
-    # 撮影後に呼ばれるdelegateを定義
+    # 画像選択後に呼ばれるdelegateを定義
     def imagePickerController_didFinishPickingMediaWithInfo_(self, cmd, picker, info):
         pick = ObjCInstance(picker)
         pick.setDelegate_(None)  # Set delegate to nil, and release its memory:
@@ -189,3 +189,4 @@ def pick_photoalbum_and_save(file_path):
     # 自分ViewからUIImagePickerControllerを呼ぶ
     vc = get_topcontroler()
     vc.presentModalViewController_animated_(picker, True)
+

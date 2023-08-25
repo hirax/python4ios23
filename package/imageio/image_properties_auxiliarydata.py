@@ -2,6 +2,10 @@
 # Jun Hirabayashi (jun@hirax.net, twitter @hirax)
 # This code is based on Brun0oO's work(MIT License)
 
+# 本コードではImamgeIOフレームワーク機能を使うが、
+# Objc_utilモジュール/IImageクラスでkCIImageAuxiliaryDepthデータを抽出するコードも見ておくべき
+# [BreadcrumbsPythonista-Extract-Depthmap](https://github.com/jankais3r/Pythonista-Extract-Depthmap/blob/main/extract_depthmap.py)
+
 import ctypes
 import rubicon.objc
 from os.path import abspath
@@ -10,6 +14,14 @@ import numpy as np
 # 定数設定
 kCGImageAuxiliaryDataTypeHDRGainMap = 'kCGImageAuxiliaryDataTypeHDRGainMap'
 kCGImageAuxiliaryDataTypeDisparity = 'kCGImageAuxiliaryDataTypeDisparity'
+kCGImageAuxiliaryDataTypePortraitEffectsMatte = 'kCGImageAuxiliaryDataTypePortraitEffectsMatte'
+kCGImageAuxiliaryDataTypeSemanticSegmentationGlassesMatte = 'kCGImageAuxiliaryDataTypeSemanticSegmentationGlassesMatte'
+kCGImageAuxiliaryDataTypeSemanticSegmentationGlassesMatte = 'kCGImageAuxiliaryDataTypeSemanticSegmentationGlassesMatte'
+kCGImageAuxiliaryDataTypeSemanticSegmentationHairMatte = 'kCGImageAuxiliaryDataTypeSemanticSegmentationHairMatte'
+kCGImageAuxiliaryDataTypeSemanticSegmentationSkinMatte = 'kCGImageAuxiliaryDataTypeSemanticSegmentationSkinMatte'
+kCGImageAuxiliaryDataTypeSemanticSegmentationSkyMatte = 'kCGImageAuxiliaryDataTypeSemanticSegmentationSkyMatte'
+kCGImageAuxiliaryDataTypeSemanticSegmentationTeethMatte = 'kCGImageAuxiliaryDataTypeSemanticSegmentationTeethMatte'
+
 kCGImageAuxiliaryDataInfoData = 'kCGImageAuxiliaryDataInfoData'
 kCGImageAuxiliaryDataInfoDataDescription = 'kCGImageAuxiliaryDataInfoDataDescription'
 
